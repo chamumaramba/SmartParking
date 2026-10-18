@@ -89,3 +89,6 @@ Users can pay for each visit or use a monthly subscription. The project also inc
 - What MQTT topics and message formats will be used for booking events and entry/exit requests and responses?
 - What are the prices, free periods, rounding rules, and subscription benefits?
 - Which third-party payment gateway will be used, and what happens when a payment is delayed or fails?
+
+An IoT smart parking system using ASP.NET Core, Blazor, and ESP32. Supports spot reservations, code-based entry and exit, live occupancy tracking, hourly billing, and monthly plans. Integrates AWS IoT Core MQTT with PlatformIO and Wokwi simulation. Currently under development.
+
