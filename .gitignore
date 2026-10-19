@@ -484,3 +484,14 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# AWS IoT credentials
+**/certs.h
+**/Secrets.h
+**/certs/
+*.pem
+*.private.key
+*.pfx
+
+# PlatformIO build files
+**/.pio/
