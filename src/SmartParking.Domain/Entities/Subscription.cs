@@ -2,6 +2,11 @@ using SmartParking.Domain.Enums;
 
 namespace SmartParking.Domain.Entities;
 
+/// <summary>
+/// Represents a user's time-bounded enrollment in a pricing plan. The
+/// application uses its status and validity dates to determine subscription
+/// eligibility and tracks payments related to the subscription.
+/// </summary>
 public class Subscription
 {
     public Guid Id { get; set; } = Guid.NewGuid();

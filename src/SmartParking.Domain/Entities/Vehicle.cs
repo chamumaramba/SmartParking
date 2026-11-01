@@ -1,5 +1,9 @@
 namespace SmartParking.Domain.Entities;
 
+/// <summary>
+/// Represents a vehicle registered to a user. The application uses it to
+/// associate bookings with the vehicle expected to use the parking facility.
+/// </summary>
 public class Vehicle
 {
     public Guid Id { get; set; } = Guid.NewGuid();

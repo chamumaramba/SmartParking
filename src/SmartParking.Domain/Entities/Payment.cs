@@ -2,6 +2,11 @@ using SmartParking.Domain.Enums;
 
 namespace SmartParking.Domain.Entities;
 
+/// <summary>
+/// Represents a payment transaction associated with a parking session or
+/// subscription. The application uses it to track the amount, currency, provider
+/// reference, and payment lifecycle.
+/// </summary>
 public class Payment
 {
     public Guid Id { get; set; } = Guid.NewGuid();

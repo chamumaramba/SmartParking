@@ -2,6 +2,11 @@ using SmartParking.Domain.Enums;
 
 namespace SmartParking.Domain.Entities;
 
+/// <summary>
+/// Represents a vehicle's actual stay in a parking space, from recorded entry
+/// until exit. The application uses its timestamps and pricing snapshots to
+/// calculate the parking charge and associate related payments.
+/// </summary>
 public class ParkingSession
 {
     public Guid Id { get; set; } = Guid.NewGuid();

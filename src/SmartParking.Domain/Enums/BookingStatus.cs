@@ -6,6 +6,7 @@ namespace SmartParking.Domain.Enums
         Confirmed,
         Cancelled,
         Expired,
-        Completed
+        Completed,
+        Active
     }
 }

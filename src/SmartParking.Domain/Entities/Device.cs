@@ -2,6 +2,11 @@ using SmartParking.Domain.Enums;
 
 namespace SmartParking.Domain.Entities;
 
+/// <summary>
+/// Represents a physical device installed at a parking lot, such as an access
+/// gate or occupancy sensor. The application uses it to identify the source of
+/// device reports and track device status and last contact time.
+/// </summary>
 public class Device
 {
     public Guid Id { get; set; } = Guid.NewGuid();

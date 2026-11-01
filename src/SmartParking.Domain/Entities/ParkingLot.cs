@@ -1,5 +1,9 @@
 namespace SmartParking.Domain.Entities;
 
+/// <summary>
+/// Represents a managed parking facility. The application uses it to group
+/// parking spaces, devices, and the pricing plans available at that location.
+/// </summary>
 public class ParkingLot
 {
     public Guid Id { get; set; } = Guid.NewGuid();

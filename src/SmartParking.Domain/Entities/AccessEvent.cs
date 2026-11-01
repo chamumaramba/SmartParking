@@ -2,6 +2,11 @@ using SmartParking.Domain.Enums;
 
 namespace SmartParking.Domain.Entities;
 
+/// <summary>
+/// Records an access attempt reported by a parking device, including the action,
+/// decision, time, and any associated booking or access code. The application uses
+/// these records for access history, troubleshooting, and auditing.
+/// </summary>
 public class AccessEvent
 {
     public Guid Id { get; set; } = Guid.NewGuid();

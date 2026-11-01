@@ -2,6 +2,11 @@ using SmartParking.Domain.Enums;
 
 namespace SmartParking.Domain.Entities;
 
+/// <summary>
+/// Defines pricing and reservation settings that can be offered by one or more
+/// parking lots. The application uses the plan to determine rates and preserve
+/// the applicable pricing terms when a parking session starts.
+/// </summary>
 public class PricingPlan
 {
     public Guid Id { get; set; } = Guid.NewGuid();

@@ -1,5 +1,9 @@
 namespace SmartParking.Domain.Entities;
 
+/// <summary>
+/// Represents an individual parking spot in a lot. The application uses it to
+/// identify the spot reserved by a booking and track reported occupancy.
+/// </summary>
 public class ParkingSpace
 {
     public Guid Id { get; set; } = Guid.NewGuid();
